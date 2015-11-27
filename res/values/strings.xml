@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Exemplo TreinaWeb</string>
+    <string name="ola_mundo">Treinaweb Cursos</string>
+    <string name="Curso">Android Básico</string>
+    <string name="aluno">Hugo Emiliano Almeida de Avila</string>
+    <string name="msg">Digite seu nome baixo</string>
+    <string name="texto_nome"></string> 
+    <string name="botao_proximo">Próxima Tela</string>
+    <string name="botao_ok">OK</string>
+    <string name="resposta">Resposta</string>
+    
+    
+
+</resources>
