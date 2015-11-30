@@ -1,12 +1,13 @@
 package info.hugoemiliano.primeiroprojeto;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+
 
 
 public class Tela1 extends Activity {
@@ -25,14 +26,19 @@ public class Tela1 extends Activity {
 	private OnClickListener clickListener = new OnClickListener() {
 
 		@Override
-		public void onClick(View arg0) {
+		public void onClick(View v) {
 			// TODO Auto-generated method stub
-			TextView tvResultado = (TextView) findViewById(R.id.textViewResposta);
+			Intent intencao = new Intent(Tela1.this, Tela2.class);
 			EditText txtNome = (EditText) findViewById(R.id.editTextNome);
 			
-		
-			String msg = "Nome: " + txtNome.getText().toString();
-		tvResultado.setText(msg);
+			String nome = txtNome.getText().toString();
+			
+			Bundle parametros = new Bundle();
+			parametros.putString("nome", nome);
+			
+			intencao.putExtras(parametros);
+			
+			startActivity(intencao);
 			
 		}
 
