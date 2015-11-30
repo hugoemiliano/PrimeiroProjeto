@@ -22,8 +22,8 @@
         android:id="@+id/buttonProximo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/botao_ok" 
-        android:onClick="cliqueBotaoOk"/>
+        android:onClick="Fechando"
+        android:text="@string/botao_ok" />
 
     <TextView
         android:id="@+id/textView2"
