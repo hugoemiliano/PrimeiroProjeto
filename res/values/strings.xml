@@ -13,6 +13,10 @@
     <string name="titulo">Informações do curso</string>
     <string name="voltar">Voltar</string>
     <string name="nome">Nome</string>
+    <string name="rotulo">Selecione uma opção:</string>
+    <string name="android_basico">Curso de Android Básico</string>
+    <string name="java_basico">Curso de Java Básico</string>
+    <string name="csharp_basico">Curso de C# Básico</string>
      
     
     

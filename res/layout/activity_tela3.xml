@@ -13,7 +13,6 @@
             android:layout_width="60dp"
             android:layout_height="40dp"
             android:text="@string/nome" />
-
     </TableRow>
 
     <EditText
@@ -34,11 +33,10 @@
         android:gravity="center" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/buttonOK"
             android:layout_width="60dp"
             android:layout_height="40dp"
             android:text="@string/botao_ok" />
-
     </TableRow>
 
 </TableLayout>
