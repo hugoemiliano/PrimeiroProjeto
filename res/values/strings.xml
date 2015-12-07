@@ -17,8 +17,13 @@
     <string name="android_basico">Curso de Android Básico</string>
     <string name="java_basico">Curso de Java Básico</string>
     <string name="csharp_basico">Curso de C# Básico</string>
-     
-    
-    
+    <string name="menu_archive">Arquivos</string>
+    <string name="menu_attachment">Adicionar um arquivos</string>
+    <string name="menu_delete">Excluir</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_mais">Mais</string>
+    <string name="menu_salvar">Salvar</string> 
+    <string name="menu_pesquisar">Pesquisar</string>
 
 </resources>
